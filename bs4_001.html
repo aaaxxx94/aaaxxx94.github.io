@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quickly Built Site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+ 
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  </style>
+  <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Hello World! how are you doing?</h1>
+  <p>We are responsible for our actions and this is a responsive page, to see the effect! resize the browser.</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-toggle="tooltip" title="This website is a work in progress! Links will be updated soon.">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-toggle="tooltip" title="This website is a work in progress! Links will be updated soon.">Algorithms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-toggle="tooltip" title="This website is a work in progress! Links will be updated soon.">Leaderboard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-toggle="tooltip" title="This website is a work in progress! Links will be updated soon.">Forum</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-toggle="tooltip" title="This website is a work in progress! Links will be updated soon.">Contact Us</a>
+      </li>  
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Us</h2>
+      <h5>Our Logo:</h5>
+      
+      <p align="center">Sierpinski Triangle</p>
+	  <p align="center">
+	  <a href="https://en.wikipedia.org/wiki/Sierpinski_triangle" target="_blank">
+		<img class="img-fluid" src="sierpinski_triangle.jpg" alt="Sierpinski Triangle" align="center">
+	  </a></p>
+      <h3>Some Links</h3>
+      <p>These are links to some sites which are to be used as your new social media platform.<br/> Happy Coding!</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="https://codeforces.com/" target="_blank">Codeforces</a>
+        </li>
+		        <li class="nav-item">
+          <a class="nav-link" href="https://www.codechef.com/" target="_blank">Codechef</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="https://www.geeksforgeeks.org/" target="_blank">GeekforGeeks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Interesting Blogs</a>
+        </li>
+      </ul>
+	  <a href="#" data-toggle="tooltip" title="Start Coding Start Learning">
+	  <img class ="img-fluid" src="coding.png" alt="Start Coding Start Learning">
+	  </a>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>Pioneers in Computer Science</h2>
+      <h5>With the efforts done far and wide by many known and unknown, persistently for decades; here are few honorable mentions:</h5>
+	  
+      <div id="demo" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+	<li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Ada_Lovelace.jpg" alt="Ada Lovelace" width="1200" height="400">
+	        <div class="carousel-caption">
+        <h3>Ada Lovelace</h3>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="Alan_Turing.jpg" alt="Alan Turing" width="1200" height="400">
+	  	        <div class="carousel-caption">
+        <h3>Alan Turing</h3>
+      </div>  
+    </div>
+    <div class="carousel-item">
+      <img src="Jhon_Von_Neuman.jpg" alt="Jhon Von Neuman" width="1200" height="400">
+	  	        <div class="carousel-caption">
+        <h3>Jhon Von Neuman</h3>
+      </div>  
+    </div>  
+	    <div class="carousel-item">
+      <img src="Grace_Hopper.jpg" alt="Grace Hopper" width="1200" height="400">
+	  	        <div class="carousel-caption">
+        <h3>Grace Hopper</h3>
+      </div>  
+    </div>
+	
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+	  
+      <p>We pay our respect to the computer wizards by making a difference.</p>
+	  <p><b>Ada Lovelace</b><br/>An English mathematician and writer, chiefly known for her work on Charles Babbage's 
+	  proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognize that the 
+	  machine had applications beyond pure calculation, and created the first algorithm intended to be carried out 
+	  by such a machine. As a result, she is often regarded as the first to recognize the full potential of a 
+	  "computing machine" and the first computer programmer.</p>
+      <p><b>Alan Turing</b><br/>Made several founding contributions to computer science, including the Turing machine
+	  computational model, the conceiving of the stored program concept and the designing of the
+	  high-speed ACE design. Widely considered as the father of computer science and artificial intelligence.</p>
+	  <p><b>Jhon Von Neuman</b><br/>Formulated the von Neumann architecture upon which most modern computers are based.</p>
+	  <p><b>Grace Hopper</b><br/>Pioneered work on the necessity for high-level programming languages, which she termed
+	  automatic programming, and wrote the A-O compiler, which heavily influenced the COBOL language.</p>
+      <br>
+      <h2>How to?</h2>
+      <h5>We provide links to one the best guides available for almost everything a computer science guy needs from resume to building an AI.</h5>
+	  
+	  <a  data-toggle="tooltip" title="This website is a work in progress! Links will be added soon.">
+	  
+      <div id="anim" class="carousel slide" data-ride="carousel" data-interval="2500">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#anim" data-slide-to="0" class="active"></li>
+    <li data-target="#anim" data-slide-to="1"></li>
+    <li data-target="#anim" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="mobile_apps.png" alt="Mobile Apps" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="data_analysis.png" alt="Data Analysis" width="1100" height="500">
+    </div>
+    <div class="carousel-item ">
+      <img src="artificial_intelligence.png" alt="Artificial Intelligence" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#anim" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#anim" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+      
+	  </a>
+	  
+	  <p>Try out some new things.Think Different.Think Big.</p>
+      <p></p>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>© Copyright 2018, All Rights Reserved</p>
+</div>
+</body>
+</html>
